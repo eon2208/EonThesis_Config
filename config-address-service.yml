@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: address-service
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/addressService
+      database: addressService
