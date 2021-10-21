@@ -2,7 +2,8 @@ spring:
   application:
     name: order-service
 
-  data:
-    mongodb:
-      uri: mongodb://localhost:27017/addressService
-      database: addressService
+  datasource:
+    url: jdbc:postgresql://localhost:9090/inventory_hub
+    username: postgres
+    password: ${DBPASSWORD}
+    driver-class-name: org.postgresql.Driver
