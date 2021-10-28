@@ -6,4 +6,3 @@ spring:
     url: jdbc:postgresql://localhost:5432/orderService
     username: postgres
     password: root
-    driver-class-name: org.postgresql.Driver
