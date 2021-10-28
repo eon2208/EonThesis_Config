@@ -3,7 +3,7 @@ spring:
     name: order-service
 
   datasource:
-    url: jdbc:postgresql://localhost:9090/inventory_hub
+    url: jdbc:postgresql://localhost:5432/inventory_hub
     username: postgres
     password: ${DBPASSWORD}
     driver-class-name: org.postgresql.Driver
