@@ -1,5 +1,9 @@
 spring:
-  data:
-    mongodb:
-      uri: mongodb://localhost:27017/mealService
-      database: mealService
+  application:
+    name: meal-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mealService
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
