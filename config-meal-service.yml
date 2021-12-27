@@ -1,3 +1,6 @@
+server:
+  port: 7002
+
 spring:
   application:
     name: meal-service
