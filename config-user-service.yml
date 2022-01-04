@@ -9,3 +9,12 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017/userService
       database: userService
+
+security:
+  oauth2:
+    client:
+      client-id: springClient
+      client-secret: springSecret
+      signing-key: springSigningKey
+      token-validity-seconds: 300
+      refresh-token-validity-seconds: 1500
