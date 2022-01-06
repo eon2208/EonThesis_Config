@@ -7,5 +7,5 @@ spring:
 
   data:
     mongodb:
-      uri: mongodb://localhost:27017/paymentService
+      uri: mongodb://localhost:27020/paymentService
       database: paymentService

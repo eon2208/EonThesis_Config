@@ -7,5 +7,5 @@ spring:
 
   data:
     mongodb:
-      uri: mongodb://localhost:27017/restaurantService
+      uri: mongodb://localhost:27019/restaurantService
       database: restaurantService

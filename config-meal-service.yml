@@ -7,6 +7,6 @@ spring:
 
   datasource:
     url: jdbc:postgresql://localhost:5432/mealService
-    username: meal_user
-    password: meal
+    username: meal
+    password: meal_pass
     driver-class-name: org.postgresql.Driver

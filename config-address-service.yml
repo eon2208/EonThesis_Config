@@ -8,8 +8,8 @@ spring:
   data:
     mongodb:
       url: mongodb://localhost:27017/addressService
-      username: root
-      database: addressService
+      username: address
+      database: address_pass
 
 rapidapi-mapencoding:
   url: https://google-maps-geocoding.p.rapidapi.com/geocode/json
