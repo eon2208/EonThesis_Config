@@ -9,7 +9,7 @@ spring:
     mongodb:
       username: payment
       password: payment_pass
-      database: payementService
+      database: paymentService
       port: 27020
       host: localhost
       authentication-database: admin
