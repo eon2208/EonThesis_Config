@@ -7,9 +7,12 @@ spring:
 
   data:
     mongodb:
-      url: mongodb://localhost:27017/addressService
       username: address
-      database: address_pass
+      password: address_pass
+      database: addressService
+      port: 27017
+      host: localhost
+      authentication-database: admin
 
 rapidapi-mapencoding:
   url: https://google-maps-geocoding.p.rapidapi.com/geocode/json

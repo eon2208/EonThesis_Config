@@ -7,5 +7,9 @@ spring:
 
   data:
     mongodb:
-      uri: mongodb://localhost:27020/paymentService
-      database: paymentService
+      username: payment
+      password: payment_pass
+      database: payementService
+      port: 27020
+      host: localhost
+      authentication-database: admin
