@@ -7,5 +7,9 @@ spring:
 
   data:
     mongodb:
-      uri: mongodb://localhost:27019/restaurantService
+      username: restaurant
+      password: restaurant_pass
       database: restaurantService
+      port: 27029
+      host: localhost
+      authentication-database: admin
