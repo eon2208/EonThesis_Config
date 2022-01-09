@@ -10,6 +10,6 @@ spring:
       username: restaurant
       password: restaurant_pass
       database: restaurantService
-      port: 27029
+      port: 27019
       host: localhost
       authentication-database: admin
