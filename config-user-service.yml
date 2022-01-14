@@ -1,23 +1,22 @@
 server:
-  port: 7006
+  port: 7002
 
 spring:
   application:
-    name: user-service
+    name: meal-service
 
-  data:
-    mongodb:
-      username: user
-      password: user_pass
-      database: userService
-      host: localhost
-      port: 27018
+  datasource:
+    url: jdbc:postgresql://localhost:5436/restaurantService
+    username: restaurant
+    password: restaurant_pass
+    driver-class-name: org.postgresql.Driver
 
-security:
-  oauth2:
-    client:
-      client-id: springClient
-      client-secret: springSecret
-      signing-key: springSigningKey
-      token-validity-seconds: 300
-      refresh-token-validity-seconds: 1500
+  jpa:
+    generate-ddl: true
+    hibernate:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      generate-ddl: true
+      ddl-auto: create
+      database: POSTGRESQL
+      open-in-view: false
+      show-sql: true
