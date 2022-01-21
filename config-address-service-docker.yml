@@ -1,0 +1,28 @@
+server:
+  port: 7001
+
+spring:
+  application:
+    name: address-service
+
+  data:
+    mongodb:
+      username: address
+      password: address_pass
+      database: addressService
+      port: 27017
+      host: mongodb-address
+      authentication-database: admin
+
+rapidapi-mapencoding:
+  url: https://google-maps-geocoding.p.rapidapi.com/geocode/json
+  rapidApiHost: google-maps-geocoding.p.rapidapi.com
+  rapidApiKey: f4e9ad6671msh6a82f138256beafp10c4a1jsna68bf7508a5a
+
+axon:
+  axonserver:
+    servers: http://axonserver:8124
+  eventhandling:
+    processors:
+      address-group:
+        mode: subscribing
