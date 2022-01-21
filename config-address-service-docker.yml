@@ -21,7 +21,7 @@ rapidapi-mapencoding:
 
 axon:
   axonserver:
-    servers: http://axonserver:8124
+    servers: axonserver:8124
   eventhandling:
     processors:
       address-group:
