@@ -20,3 +20,9 @@ spring:
       database: POSTGRESQL
       open-in-view: false
       show-sql: true
+
+axon:
+  eventhandling:
+    processors:
+      meal-group:
+        mode: subscribing

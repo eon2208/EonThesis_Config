@@ -11,10 +11,12 @@ spring:
       password: user_pass
       database: userService
       port: 27018
-      host: localhost
+      host: mongodb-user
       authentication-database: admin
 
 axon:
+  axonserver:
+    servers: axonserver:8124
   eventhandling:
     processors:
       user-group:

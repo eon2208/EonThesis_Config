@@ -1,0 +1,10 @@
+server:
+  port: 7777
+
+spring:
+  application:
+    name: thesis-ui
+
+axon:
+  axonserver:
+    servers: axonserver:8124

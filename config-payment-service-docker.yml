@@ -11,7 +11,7 @@ spring:
       password: payment_pass
       database: paymentService
       port: 27020
-      host: localhost
+      host: mongodb-payment
       authentication-database: admin
 
 axon:
@@ -19,3 +19,5 @@ axon:
     processors:
       payment-group:
         mode: subscribing
+  axonserver:
+    servers: axonserver:8124

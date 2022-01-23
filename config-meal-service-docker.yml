@@ -1,14 +1,14 @@
 server:
-  port: 7005
+  port: 7002
 
 spring:
   application:
-    name: restaurant-service
+    name: meal-service
 
   datasource:
-    url: jdbc:postgresql://postgresql-restaurant:5436/restaurantService
-    username: restaurant
-    password: restaurant_pass
+    url: jdbc:postgresql://postgresql-meal:5432/mealService
+    username: meal
+    password: meal_pass
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -26,5 +26,5 @@ axon:
     servers: axonserver:8124
   eventhandling:
     processors:
-      restaurant-group:
+      meal-group:
         mode: subscribing
