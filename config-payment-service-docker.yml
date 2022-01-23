@@ -10,7 +10,7 @@ spring:
       username: payment
       password: payment_pass
       database: paymentService
-      port: 27020
+      port: 27017
       host: mongodb-payment
       authentication-database: admin
 

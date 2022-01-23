@@ -1,5 +1,5 @@
 server:
-  port: 7002
+  port: 7006
 
 spring:
   application:
@@ -10,7 +10,7 @@ spring:
       username: user
       password: user_pass
       database: userService
-      port: 27018
+      port: 27017
       host: localhost
       authentication-database: admin
 
