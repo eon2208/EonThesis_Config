@@ -10,7 +10,7 @@ spring:
       username: user
       password: user_pass
       database: userService
-      port: 27017
+      port: 27018
       host: localhost
       authentication-database: admin
 

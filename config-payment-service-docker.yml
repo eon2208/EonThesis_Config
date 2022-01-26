@@ -15,9 +15,9 @@ spring:
       authentication-database: admin
 
 axon:
+  axonserver:
+    servers: axonserver:8124
   eventhandling:
     processors:
       payment-group:
-        mode: subscribing
-  axonserver:
-    servers: axonserver:8124
+      mode: subscribing
