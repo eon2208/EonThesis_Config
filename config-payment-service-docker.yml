@@ -20,4 +20,4 @@ axon:
   eventhandling:
     processors:
       payment-group:
-      mode: subscribing
+        mode: subscribing
